@@ -1,0 +1,7 @@
+.env
+#local.settings.json
+local.params.json
+node_modules
+.oryx_prod_node_modules
+notes.md
+bin/

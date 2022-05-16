@@ -1,0 +1,19 @@
+{
+  "name": "gab2022-voting-system-serverless-api",
+  "version": "0.1.0",
+  "description": "Serverless API and event handler for GAB 2022 Voting System",
+  "scripts": {
+    "start": "swa start ../client --api-location . --swa-config-location ../client",
+    "lint": "eslint . && prettier --check *.js",
+    "lint-fix": "eslint . --fix && prettier --write *.js"
+  },
+  "author": "",
+  "dependencies": {
+    "@azure/data-tables": "^12.1.2",
+    "@azure/web-pubsub": "^1.0.0-beta.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1"
+  }
+}
